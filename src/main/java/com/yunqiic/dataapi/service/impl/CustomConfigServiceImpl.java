@@ -48,7 +48,7 @@ public class CustomConfigServiceImpl extends AbstractService<ConfigModel> implem
         for(int i = 0 ; i < configListMap.size() ; i++) {
             customConfig = new ConfigModel();
 
-            customConfig.setKey(configListMap.get(i).get("key").toString());
+            customConfig.setConfigKey(configListMap.get(i).get("config_key").toString());
 
             customConfigList.add(customConfig);
         }

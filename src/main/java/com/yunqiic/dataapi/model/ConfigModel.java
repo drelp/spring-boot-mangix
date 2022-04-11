@@ -18,14 +18,16 @@ public class ConfigModel extends BaseModel {
     /**
      * key
      */
+    @Column(name = "config_key")
     @ApiModelProperty(value="key")
-    private String key;
+    private String configKey;
 
     /**
      * value
      */
+    @Column(name = "config_value")
     @ApiModelProperty(value="value")
-    private String value;
+    private String configValue;
 
     /**
      * 状态 -1-删除 1-正常
@@ -87,37 +89,37 @@ public class ConfigModel extends BaseModel {
     /**
      * 获取key
      *
-     * @return key - key
+     * @return config_key - key
      */
-    public String getKey() {
-        return key;
+    public String getConfigKey() {
+        return configKey;
     }
 
     /**
      * 设置key
      *
-     * @param key key
+     * @param configKey key
      */
-    public void setKey(String key) {
-        this.key = key;
+    public void setConfigKey(String configKey) {
+        this.configKey = configKey;
     }
 
     /**
      * 获取value
      *
-     * @return value - value
+     * @return config_value - value
      */
-    public String getValue() {
-        return value;
+    public String getConfigValue() {
+        return configValue;
     }
 
     /**
      * 设置value
      *
-     * @param value value
+     * @param configValue value
      */
-    public void setValue(String value) {
-        this.value = value;
+    public void setConfigValue(String configValue) {
+        this.configValue = configValue;
     }
 
     /**

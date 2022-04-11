@@ -32,7 +32,7 @@ public class CustomConfigController {
             @ApiImplicitParam(name = "key", value = "key", paramType = "query", dataType = "String", defaultValue = "10"),
             @ApiImplicitParam(name = "page", value = "查询页码", paramType = "query", dataType = "Integer", defaultValue = "0"),
             @ApiImplicitParam(name = "limit", value = "每页数据量", paramType = "query", dataType = "Integer", defaultValue = "10"),
-            @ApiImplicitParam(name = "sort", value = "排序字段", paramType = "query", dataType = "String", defaultValue = "key"),
+            @ApiImplicitParam(name = "sort", value = "排序字段", paramType = "query", dataType = "String", defaultValue = "config_key"),
             @ApiImplicitParam(name = "order", value = "排序方式", paramType = "query", dataType = "String", defaultValue = "asc")
     })
     public Result<List<ConfigModel>> getListByKey(

@@ -1,7 +1,7 @@
 package com.yunqiic.dataapi.service.impl;
 
 import com.yunqiic.dataapi.dao.CustomConfigMapper;
-import com.yunqiic.dataapi.db.domain.Config;
+import com.yunqiic.dataapi.model.ConfigModel;
 import com.yunqiic.dataapi.model.dto.ConfigDataSearch;
 import com.yunqiic.dataapi.service.CustomConfigService;
 import com.yunqiic.dataapi.core.AbstractService;
@@ -20,11 +20,11 @@ import java.util.Map;
  */
 @Service
 @Transactional
-public class CustomConfigServiceImpl extends AbstractService<Config> implements CustomConfigService {
+public class CustomConfigServiceImpl extends AbstractService<ConfigModel> implements CustomConfigService {
     @Resource
     private CustomConfigMapper customConfigMapper;
 
-    public List<Config> getListByKey(String key, Integer page, Integer limitNum, String sort, String orderStr) {
+    public List<ConfigModel> getListByKey(String key, Integer page, Integer limitNum, String sort, String orderStr) {
         ConfigDataSearch configDataSearch = new ConfigDataSearch();
         ConfigDataSearch.Where where = new ConfigDataSearch.Where();
         where.setKey(key);
@@ -43,10 +43,10 @@ public class CustomConfigServiceImpl extends AbstractService<Config> implements 
         configDataSearch.setLimit(limit);
         List<Map> configListMap = customConfigMapper.getListByKey(configDataSearch);
 
-        List<Config> customConfigList = new ArrayList<>();
-        Config customConfig;
+        List<ConfigModel> customConfigList = new ArrayList<>();
+        ConfigModel customConfig;
         for(int i = 0 ; i < configListMap.size() ; i++) {
-            customConfig = new Config();
+            customConfig = new ConfigModel();
 
             customConfig.setKey(configListMap.get(i).get("key").toString());
 

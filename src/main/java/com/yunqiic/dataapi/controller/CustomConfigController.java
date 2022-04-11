@@ -4,7 +4,7 @@ import com.yunqiic.dataapi.core.Result;
 import com.yunqiic.dataapi.core.ResultGenerator;
 import com.yunqiic.dataapi.core.validate.Order;
 import com.yunqiic.dataapi.core.validate.Sort;
-import com.yunqiic.dataapi.db.domain.Config;
+import com.yunqiic.dataapi.model.ConfigModel;
 import com.yunqiic.dataapi.service.CustomConfigService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -35,13 +35,13 @@ public class CustomConfigController {
             @ApiImplicitParam(name = "sort", value = "排序字段", paramType = "query", dataType = "String", defaultValue = "key"),
             @ApiImplicitParam(name = "order", value = "排序方式", paramType = "query", dataType = "String", defaultValue = "asc")
     })
-    public Result<List<Config>> getListByKey(
+    public Result<List<ConfigModel>> getListByKey(
             String key,
             @RequestParam(defaultValue = "1") Integer page,
             @RequestParam(defaultValue = "10") Integer limit,
             @Sort @RequestParam(defaultValue = "package_time") String sort,
             @Order @RequestParam(defaultValue = "asc") String order) {
-        List<Config> list = customConfigService.getListByKey(key, page, limit, sort, order);
+        List<ConfigModel> list = customConfigService.getListByKey(key, page, limit, sort, order);
         return ResultGenerator.genSuccessResult(list);
     }
 

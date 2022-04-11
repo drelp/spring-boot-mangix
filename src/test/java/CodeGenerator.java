@@ -37,27 +37,19 @@ public class CodeGenerator {
     private static final String DATE = new SimpleDateFormat("yyyy/MM/dd").format(new Date());//@date
 
     public final static Map<String, String> CONTROLLER_DESC = new HashMap<String, String>(){{
-        put("COriginalDataTCg", "原始数据");
-        put("CUnpackDataTCg", "解包数据");
-        put("CEquipmentWorkTimeT1Cg", "工作时间统计");
+        put("Config", "Config");
     }};
 
     public static void main(String[] args) {
         // genCode("输入表名");
         // genCodeByCustomModelName("输入表名","输入自定义Model名称");
         /**
-         * c_original_data_t
-         * c_unpack_data_t
-         * c_equipment_work_time_t1
+         * config
          */
-        /*genCode("c_original_data_t");
-        genCode("c_unpack_data_t");
-        genCode("c_equipment_work_time_t1")*/
+        /*genCode("config");*/
 
 
-        genCodeByCustomModelName("c_original_data_t", "COriginalDataTCg");
-        genCodeByCustomModelName("c_unpack_data_t", "CUnpackDataTCg");
-        genCodeByCustomModelName("c_equipment_work_time_t1", "CEquipmentWorkTimeT1Cg");
+        genCodeByCustomModelName("config", "ConfigModel");
     }
 
     /**

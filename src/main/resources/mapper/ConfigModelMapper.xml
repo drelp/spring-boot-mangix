@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yunqiic.dataapi.dao.CustomConfigMapper">
+<mapper namespace="com.yunqiic.dataapi.dao.cg.ConfigModelMapper">
   <resultMap id="BaseResultMap" type="com.yunqiic.dataapi.model.ConfigModel">
     <!--
       WARNING - @mbg.generated
@@ -15,18 +15,4 @@
     <result column="create_time" jdbcType="INTEGER" property="createTime" />
     <result column="update_time" jdbcType="INTEGER" property="updateTime" />
   </resultMap>
-
-  <select id="getListByKey" parameterType="map" resultType="map">
-    select * from config
-    where 1=1
-    <if test="where.key != null">
-      and key = '${where.key}'
-    </if>
-    <if test="order != null and order.orderStr != null">
-      order by ${order.orderStr}
-    </if>
-    <if test="limit != null and limit.limitStr != null">
-      limit ${limit.limitStr}
-    </if>
-  </select>
 </mapper>

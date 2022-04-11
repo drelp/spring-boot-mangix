@@ -20,7 +20,7 @@
     select * from config
     where 1=1
     <if test="where.key != null">
-      and key = '${where.key}'
+      and `key` = '${where.key}'
     </if>
     <if test="order != null and order.orderStr != null">
       order by ${order.orderStr}

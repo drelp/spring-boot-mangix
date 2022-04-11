@@ -20,7 +20,7 @@ import java.util.Map;
  */
 @Service
 @Transactional
-public class CustomConfigImpl extends AbstractService<Config> implements CustomConfigService {
+public class CustomConfigServiceImpl extends AbstractService<Config> implements CustomConfigService {
     @Resource
     private CustomConfigMapper customConfigMapper;
 

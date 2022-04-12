@@ -52,6 +52,9 @@ docker start bk-paas
 
 docker pull ccr.ccs.tencentyun.com/bk.io/cmdb-standalone:latest
 docker run -d -p 8074:8090 ccr.ccs.tencentyun.com/bk.io/cmdb-standalone:latest
+
+docker stop e7080aaa518
+docker start e7080aaa518
 ```
 
 ```

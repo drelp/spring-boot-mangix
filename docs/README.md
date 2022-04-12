@@ -32,11 +32,20 @@ grep -r 'www.bking.com' .
 ./paas/conf/settings_development.pyc:www.bking.com:8001s
 ./paas/conf/settings_development.pyc:www.bking.com:8003t
 
+# 8071 8073
 docker cp bk-paas:/paas/paas/conf/settings_development.py .
 docker cp bk-paas:/paas/paas/conf/settings_testing.py .
 
 docker cp settings_development.py bk-paas:/paas/paas/conf/settings_development.py
 docker cp settings_testing.py bk-paas:/paas/paas/conf/settings_testing.py
+
+# 49.232.6.131 www.bking.com
+docker cp bk-paas:/etc/hosts .
+docker cp hosts bk-paas:/etc/hosts
+docker cp hosts bk-paas:/etc/host1
+
+docker exec -it bk-paas sh
+vi /etc/hosts
 
 docker stop bk-paas
 docker start bk-paas

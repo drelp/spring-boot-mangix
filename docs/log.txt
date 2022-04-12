@@ -1,85 +1,19 @@
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1629106501 20210816 10 test 1 1 1 1 1 1). src line: [];
-Reason: no partition for this tuple. tuple=(1610949617499 20210118 DIKLY4041684 221.178.126.78 1 1 0 13000 0 0). src line: [];
-Reason: no partition for this tuple. tuple=(1631011979654 20210907 DIKLY4040029 39.144.13.43 0 4057450 1077825000 1080020000 0 1077171). src line: [];
-Reason: no partition for this tuple. tuple=(1631011979654 20210907 DIKLY4040029 39.144.13.43 0 4057450 1077825000 1080020000 0 1077171). src line: [];
-Reason: no partition for this tuple. tuple=(1631011979734 20210907 DIKLY4040029 39.144.13.43 0 4057451 1077825000 1080020000 0 1077171). src line: [];
-Reason: no partition for this tuple. tuple=(1631011979734 20210907 DIKLY4040029 39.144.13.43 0 4057451 1077825000 1080020000 0 1077171). src line: [];
-Reason: no partition for this tuple. tuple=(1631011980645 20210907 DIKLY4041989 39.144.9.182 0 41326 7147000 34056000 0 0). src line: [];
-Reason: no partition for this tuple. tuple=(1631011980645 20210907 DIKLY4041989 39.144.9.182 0 41326 7147000 34056000 0 0). src line: [];
-Reason: no partition for this tuple. tuple=(1631011980654 20210907 DIKLY4040029 39.144.13.43 1 4057452 1077826000 1080020000 0 1077171). src line: [];
-Reason: no partition for this tuple. tuple=(1631011980654 20210907 DIKLY4040029 39.144.13.43 1 4057452 1077826000 1080020000 0 1077171). src line: [];
-Reason: no partition for this tuple. tuple=(1631011980668 20210907 DIKLY4040707 39.144.5.127 0 68142 21374000 46605000 0 0). src line: [];
-Reason: no partition for this tuple. tuple=(1631011980668 20210907 DIKLY4040707 39.144.5.127 0 68142 21374000 46605000 0 0). src line: [];
-Reason: no partition for this tuple. tuple=(1631011980744 20210907 DIKLY4040029 39.144.13.43 1 4057453 1077826000 1080020000 0 1077172). src line: [];
-Reason: no partition for this tuple. tuple=(1631011980744 20210907 DIKLY4040029 39.144.13.43 1 4057453 1077826000 1080020000 0 1077172). src line: [];
-
-
-Reason: no partition for this tuple. tuple=(1631011978292 20210907 DIKLY4040666 39.144.3.3 1 67930 0 67976000 0 0). src line: [];
-
-#1 数控加工中心 主轴运行气幕信号
-#2 数控机床 运行信号信号
-#3 数控机床 运行信号灯信号
-#4 数控车床 三色灯信号
-#5 数控车床 三色灯信号
-#6 数控车床 启动运行信号信号
-#7 数控车床 启动运行信号信号
-#8 数控加工中心 三色灯信号
-#9 数控加工中心 三色灯信号
-#10 数控加工中心 主轴运行气幕信号
-#11 数控车床 运行指示信号
-#12 数控车床 启动运行信号信号
-#13 立式加工中心 运行、报警指示信号
-#14 立式加工中心 运行指示信号
-#15 高精度数控滚齿轮 PLC 46主轴电机信号
-#16 精密磨床 加工电机运转信号KA7信号
-
-
-#1 数控加工中心 设备编号：DIKLY4011270 10.57/小时
-#2 数控机床 设备编号：DIKLY4011263 0/小时
-#3 数控机床 设备编号：DIKLY4011265 0/小时
-#4 数控车床 设备编号：DIKLY4011285 6.88/小时
-#5 数控车床 设备编号：DIKLY4011259 5.56/小时
-#6 数控车床 设备编号：DIKLY4011261 5.81/小时
-#7 数控车床 设备编号：DIKLY4011264 11.05/小时
-#8 数控加工中心 设备编号：DIKLY4011266 11.24/小时
-#9 数控加工中心 设备编号：DIKLY4011282 6.37/小时
-#10 数控加工中心 设备编号：DIKLY4011279 10.18/小时
-#11 数控车床 设备编号：DIKLY4011268 5.89/小时
-#12 数控车床 设备编号：DIKLY4011275 6.03/小时
+==> paas/logs/paas.log <==
+ERROR [2022-04-12 11:00:10] /paas/paas/common/http.py 50 _http_request 317 140530790353640
+         http request error! method: GET, url: http://www.bking.com:8073/login/accounts/is_login/, data: {u'bk_token': '1lVUC14z2SZfsIJgs_nX_TsK7dEM6gqrbzmdTUtrG6Q'}
+Traceback (most recent call last):
+  File "/paas/paas/common/http.py", line 35, in _http_request
+    verify=verify, cert=cert, cookies=cookies)
+  File "/paas/.venv/paas/lib/python2.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/paas/.venv/paas/lib/python2.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/paas/.venv/paas/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/paas/.venv/paas/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/paas/.venv/paas/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='www.bking.com', port=8073): Max retries exceeded with url: /login/accounts/is_login/?bk_token=1lVUC14z2SZfsIJgs_nX_TsK7dEM6gqrbzmdTUtrG6Q (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcfdf0f7810>: Failed to establish a new connection: [Errno 111] Connection refused',))
+ERROR [2022-04-12 11:00:10] /paas/paas/components/login.py 32 _call_login_api 317 140530790353640
+         请求login接口失败: method=http_get, api=is_login, message=  

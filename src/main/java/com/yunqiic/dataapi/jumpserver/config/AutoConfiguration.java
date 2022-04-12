@@ -30,7 +30,6 @@ public class AutoConfiguration {
         MangixConfig mangixConfig = new MangixConfig();
         mangixConfig.setPrivateToken(properties.getPrivateToken());
         mangixConfig.setBaseUrl(properties.getBaseUrl());
-        logger.info("privateToken: " + mangixConfig.getPrivateToken());
         return mangixConfig;
     }
 

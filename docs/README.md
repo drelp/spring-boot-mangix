@@ -49,6 +49,9 @@ vi /etc/hosts
 
 docker stop bk-paas
 docker start bk-paas
+
+docker pull ccr.ccs.tencentyun.com/bk.io/cmdb-standalone:latest
+docker run -d -p 8074:8090 ccr.ccs.tencentyun.com/bk.io/cmdb-standalone:latest
 ```
 
 ```

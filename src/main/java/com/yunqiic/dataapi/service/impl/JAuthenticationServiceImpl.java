@@ -5,7 +5,9 @@ import com.github.zhangchunsheng.authentication.service.AuthenticationService;
 import com.yunqiic.dataapi.service.JAuthenticationService;
 import me.zhangchunsheng.mangix.common.exception.MangixException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class JAuthenticationServiceImpl implements JAuthenticationService {
     @Autowired
     private AuthenticationService authenticationService;

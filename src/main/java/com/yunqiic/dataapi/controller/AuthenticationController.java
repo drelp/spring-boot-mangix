@@ -5,6 +5,7 @@ import com.yunqiic.dataapi.core.Result;
 import com.yunqiic.dataapi.core.ResultGenerator;
 import com.yunqiic.dataapi.core.validate.Order;
 import com.yunqiic.dataapi.core.validate.Sort;
+import com.yunqiic.dataapi.jumpserver.config.AutoConfiguration;
 import com.yunqiic.dataapi.model.ConfigModel;
 import com.yunqiic.dataapi.service.JAuthenticationService;
 import io.swagger.annotations.Api;
@@ -12,6 +13,8 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import me.zhangchunsheng.mangix.common.exception.MangixException;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -28,6 +31,8 @@ import java.util.List;
 @RequestMapping("/authentication")
 @Api(tags="Authentication", value = "Authentication", description = "控制类接口测试")
 public class AuthenticationController {
+    private final Log logger = LogFactory.getLog(AuthenticationController.class);
+
     @Resource
     private JAuthenticationService jAuthenticationService;
 
@@ -42,6 +47,7 @@ public class AuthenticationController {
         try {
             result = jAuthenticationService.getLoginUrl(loginName, next);
         } catch(Exception e) {
+            logger.error(e);
             result = null;
         }
 

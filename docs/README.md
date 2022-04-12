@@ -15,3 +15,7 @@ ps -ef|grep spring-boot-mangix|grep java|awk '{print $2}'|xargs kill -9
 
 nohup java -jar target/spring-boot-mangix-1.0.jar --spring.profiles.active=prod &
 ```
+
+```
+参数引擎
+```

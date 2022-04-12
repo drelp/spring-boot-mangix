@@ -46,12 +46,11 @@ public class AuthenticationController {
         LoginUrlResult result;
         try {
             result = jAuthenticationService.getLoginUrl(loginName, next);
+            return ResultGenerator.genSuccessResult(result);
         } catch(Exception e) {
             logger.error(e);
-            result = null;
+            return ResultGenerator.genFailResult(e.getMessage());
         }
-
-        return ResultGenerator.genSuccessResult(result);
     }
 
 }
